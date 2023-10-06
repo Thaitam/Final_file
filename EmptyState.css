@@ -1,0 +1,260 @@
+*{
+    text-decoration: none !important;
+    font-family: Plus Jakarta Sans;
+}
+
+.nav-item {
+    margin-left: 50%;
+    font-size: 12px;
+    color: #74829e;
+    text-decoration: none;
+    width: 45px;
+    
+}
+
+.d-flex {
+    font-size: 12px;
+    
+}
+.search{
+    position: relative;
+    left: -150px;
+
+}
+.login{
+    position: relative;
+    left: -100px;
+}
+
+.bag{
+    position: relative;
+    left: -80px;
+}
+
+a:hover {
+    color: #3e4994;
+    text-decoration: none;
+  }
+  
+  /*Header*/
+#header {
+    background: rgba(25, 25, 25, 0.95);
+    transition: all 0.5s;
+    z-index: 997;
+    height: 70px;
+  }
+
+  #header.fixed-top {
+    background: #191919;
+  }
+  
+  #header .logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+
+  
+.slider {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+  }
+
+  .slider-handle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+.slider-handle-left {
+    left: 0;
+  }
+
+.slider-handle-right {
+    right: 134px;
+  }
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.title{
+    font-size: 12px;
+    color: #878690;
+}
+
+.domain{
+    font-size: 10px;
+}
+.Image{
+    position: relative;
+    top: 0;
+}
+span{
+    color: #878690;
+}
+.filter_all{
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.image-container {
+    position: relative; /* Để đặt vị trí tương đối cho các hình con */
+    width: 200px; /* Đặt chiều rộng của khung hình */
+    height: 450px; /* Đặt chiều cao của khung hình */
+    left: 150px;
+  }
+  
+  .image-container img {
+    position: absolute; /* Để định vị trí tuyệt đối cho các hình con */
+    top: 0; /* Khoảng cách từ phía trên của khung hình */
+    left: 0; /* Khoảng cách từ phía trái của khung hình */
+    width: 100%; /* Đảm bảo hình con lấp đầy toàn bộ khung hình */
+    height: 100%; /* Đảm bảo hình con lấp đầy toàn bộ khung hình */
+  }
+  
+  /* Để chồng hình thứ hai lên trên hình thứ nhất */
+  .image-container img:nth-child(2) {
+    z-index: 1; /* Đặt độ ưu tiên hiển thị lớn hơn cho hình thứ hai */
+  }
+
+.color1 { 
+    background-color: #100D22; 
+}
+.color2 { 
+    background-color: #808080; 
+}
+.color3 { 
+    background-color: #D96D6D; 
+}
+.color4 { 
+    background-color: #BA4164; 
+}
+.color5 { 
+    background-color: #56A1AD; 
+}
+.color6 { 
+    background-color: #5848CA; 
+}
+.color7 { 
+    background-color: #DEDADA; 
+}
+.color8 { 
+    background-color: #A8BD84; 
+}
+
+.titleInproduct{
+    font-weight: 600 !important;
+    font-size: 12px;
+}
+
+.colour{
+    width: 254px;
+    height: 60px;
+}
+
+::placeholder {
+    /* Tên font chữ hoặc đường dẫn tới file font chữ */
+    font-family: Plus Jakarta Sans;
+    /* Kích cỡ font chữ */
+    font-size: 12px;
+    /* Màu sắc của placeholder */
+    color: #100D22;
+    font-weight: 5;
+}
+input, textarea {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+}
+
+.dropdown1{
+    right: 160px;
+    margin-top: 70px;
+    font-size: 10px;
+}
+.price, 
+.brand{
+    color: var(--greyscale-grey-70, #878690);
+}
+.price{
+    font-weight: 700;
+    font-size: 12px;
+}
+.brand{
+    font-weight: 500;
+    font-size: 11px;
+    position: relative;
+    top: -10px;
+}
+.list_product{
+    width: 220px;
+    margin: 40px;
+    position: relative;
+    top: 50px;
+    left: 93px;
+}
+
+
+.product_layout{
+    height: 10px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .dropdown1 {
+        right: 0px;
+    }
+    .filter_all{
+        left: 150px;
+    }
+   
+  }
+  @media only screen and (max-width: 992px) {
+    .dropdown1 {
+        margin-top: 20px;
+        right: 0;
+    }
+    .filter_all{
+        left: 0%;
+    }
+  }
+
+ 
+
+@media only screen and (max-width: 768px) {
+    .dropdown1 {
+        right: 50px;
+    }
+    .image-container{
+        left: 50px;
+    }
+  
+   
+    
+}
+@media only screen and (max-width: 576px) {
+    
+    .dropdown1 {
+        right: 0px;
+        margin: 0px;
+    }
+    
+    
+  }
+
+
+ 

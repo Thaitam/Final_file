@@ -1,0 +1,396 @@
+*{
+    text-decoration: none !important;
+    font-family: Plus Jakarta Sans;
+}
+
+.nav-item {
+    margin-left: 50%;
+    font-size: 12px;
+    color: #74829e;
+    text-decoration: none;
+    width: 45px;
+    
+}
+.topic{
+    color: #100D22;
+    font-weight: 400;
+    font-family: Anton;
+    font-size: 40px;
+}
+.d-flex {
+    font-size: 12px;
+    
+}
+.search{
+    position: relative;
+    left: -150px;
+
+}
+.login{
+    position: relative;
+    left: -100px;
+}
+
+.bag{
+    position: relative;
+    left: -80px;
+}
+
+a:hover {
+    color: #3e4994;
+    text-decoration: none;
+  }
+  
+  /*Header*/
+#header {
+    background: rgba(25, 25, 25, 0.95);
+    transition: all 0.5s;
+    z-index: 997;
+    height: 70px;
+  }
+
+  #header.fixed-top {
+    background: #191919;
+  }
+  
+  #header .logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+
+  
+
+.domain{
+    font-size: 10px;
+}
+span{
+    color: #878690;
+}
+
+.add_to_bag, .add_to_wishlist{
+    color: #100D22;
+    font-size: 14px;
+    position: relative;
+    margin: 10px;
+    border-radius: 50px;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.add_to_bag{
+    background-color: #100D22;
+    color: #fff;
+}
+
+.add_to_wishlist{
+    background-color: #F6F6F6;
+}
+
+.main_product img{
+    position: relative;
+    top: 0;
+    left: 100px;
+    width: 400px;
+    height: 451px;
+    object-fit: cover;
+}
+
+
+.detail_img_product img{
+    position: relative;
+    width: 105px;
+    height: 100px;
+    left: 100px;
+}
+
+.content_product{
+    position: relative; 
+    left: 50px; 
+    width: 600px;
+}
+
+.input_quality, .input_quality2{
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #121112;
+}
+
+
+
+::placeholder {
+    /* Tên font chữ hoặc đường dẫn tới file font chữ */
+    font-family: Anton;
+    /* Kích cỡ font chữ */
+    font-size: 16px;
+    /* Màu sắc của placeholder */
+    color: #100D22;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.dropdown_quality, .dropdown_quality2{
+    position: relative;
+    left: -30px;
+}
+.dropdown_quality2{
+    position: relative;
+    left: -90px;
+}
+
+.description{
+    width: 500px;
+}
+
+.heart{
+    position: relative;
+    left: 40px;
+}
+.main_star{
+    padding-left: 60px;
+    
+}
+
+
+.star{
+    margin: 2px;
+}
+
+.Description_detail_section{
+    width: 1100px;
+    padding-left: 100px;
+}
+
+.Description_detail{
+    width: 800px;
+}
+
+.relate_product{
+    width: 300px;
+}
+
+.relate_product img{
+    width: 200px;
+}
+
+.relate_main{
+    padding-left: 110px;
+}
+
+.relate_product_text{
+    font-size: 14px;
+}
+
+.relate_product_text_price{
+    font-size: 12px;
+}
+
+.relate_product_brand{
+    font-size: 12px;
+}
+
+.topic_relate{
+    text-align: center;
+}
+
+#footer ::placeholder{
+    font-family: Plus Jakarta Sans;
+    /* Kích cỡ font chữ */
+    font-size: 10px;
+    /* Màu sắc của placeholder */
+    color: #878690;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .content_product{
+        
+        left: 100px; 
+    }
+    .relate_main{
+        padding-left: 80px;
+    }
+    .relate_product{
+        width: 270px;
+    }
+    
+    
+}
+@media only screen and (max-width: 1200px) {
+    .main_product img{
+        position: relative;
+        top: 0;
+        left: 100px;
+        width: 350px;
+    }
+    
+    .detail_img_product img{
+        width: 70px;
+        height: 70px;
+    }
+    .content_product{
+        padding-left: 130px;
+    }
+    .add_to_bag, .add_to_wishlist{
+        width: 220px;
+    }
+    .heart{
+        left: 25px;
+    }
+    .description{
+        width: 450px;
+    }
+    .relate_product{
+        width: 230px;
+    }
+    .relate_product img{
+        width: 150px;
+    }
+    .relate_product_text{
+        font-size: 12px;
+        padding-right: 0;
+    }
+    .relate_product_text_price{
+        padding: 0;
+    }
+
+    
+}
+
+@media only screen and (max-width: 992px) {
+   
+    .main_product img{
+        width: 300px;
+        height: 400px;
+        left: -40px;
+    }
+    .detail_img_product{
+        position: relative;
+        left: -140px;
+    }
+    .content_product{
+        position: relative;
+        top: -480px;
+        left: 200px;
+    }
+    .description{
+        width: 400px;
+    }
+    .Description_detail_section{
+        position: relative;
+        padding-left: 0;
+        top: -500px;
+    }
+
+    .relate{
+        position: relative;
+        top: -500px;
+    }
+    .relate_main{
+        position: relative;
+        width: 1000px;
+        left: -100px;
+    }
+}
+
+ 
+
+@media only screen and (max-width: 768px) {
+    
+    .description{
+        width: 330px;
+    }
+
+    .add_to_bag, .add_to_wishlist{
+        font-size: 12px;
+        width: 150px;
+        height: 50px;
+    }
+    .heart{
+        position: relative;
+        left: -40px;
+        width: 20px;
+        top: -5px;
+    }
+    .add_to_wishlist_text{
+        position: relative;
+        top: -25px;
+        left: 15px;
+    }
+    .add_to_bag{
+        padding-top: 15px;
+    }
+    
+}
+@media only screen and (max-width: 576px) {
+    .main_product img{
+        left: 30px;
+    }
+    .detail_img_product{
+        left: -60px;
+    }
+    .content_product{
+
+        left: -80px;
+        top: 40px;
+    }
+    .Description_detail_section{
+        padding-left: 50px;
+        top: 20px;
+    }
+    .relate{
+        left: 30px;
+        top: 10px;
+    }
+    .relate_main{
+        width: 400px;
+        left: -30px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 576px) {
+    .topic_relate{
+        position: relative;
+        left: -70px;
+    }
+    .relate_product{
+        width: 350px;
+    }
+    
+    .relate_product img{
+        width: 300px;
+    }
+    
+    .relate_main{
+        padding-left: 40px;
+    }
+    
+    .relate_product_text{
+        font-size: 16px;
+    }
+    .relate_product_text_price{
+        font-size: 14px;
+    }
+    .relate_product_brand{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 506px) {
+   
+    
+}
+
+ 
+

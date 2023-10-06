@@ -1,0 +1,368 @@
+*{
+    text-decoration: none !important;
+    font-family: Plus Jakarta Sans;
+}
+
+header{
+    background-color:#ffffff ;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.nav-item {
+    margin-left: 50%;
+    font-size: 12px;
+    color: #74829e;
+    text-decoration: none;
+    width: 45px;
+    
+}
+.topic{
+    color: #100D22;
+    font-weight: 400;
+    font-family: Anton;
+    font-size: 40px;
+}
+.d-flex {
+    font-size: 12px;
+    
+}
+.search{
+    position: relative;
+    left: -150px;
+
+}
+.login{
+    position: relative;
+    left: -100px;
+}
+
+.bag{
+    position: relative;
+    left: -80px;
+}
+
+a:hover {
+    color: #3e4994;
+    text-decoration: none;
+  }
+  
+  /*Header*/
+#header {
+    background: rgba(25, 25, 25, 0.95);
+    transition: all 0.5s;
+    z-index: 997;
+    height: 70px;
+  }
+
+  #header.fixed-top {
+    background: #191919;
+  }
+  
+#header .logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+
+.gradient-text {
+    font-size: 24px;
+    background-image: linear-gradient(to right,  #AB238F 0%, #DF3295 3%, #FE9D9B 12%, #FF7770 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 80px;
+    font-weight: 800;
+}
+
+.text-topic{
+    font-size: 80px;
+    font-family: Anton;
+    font-weight: 400;
+}
+
+
+.input_quality, .input_quality2{
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #121112;
+}
+
+.input_quality2{
+    position: relative;
+    left: -40px;
+}
+
+::placeholder {
+    /* Tên font chữ hoặc đường dẫn tới file font chữ */
+    font-family: Anton;
+    /* Kích cỡ font chữ */
+    font-size: 16px;
+    /* Màu sắc của placeholder */
+    color: #100D22;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.dropdown_quality, .dropdown_quality3{
+    position: relative;
+    left: -30px;
+}
+.dropdown_quality3{
+    position: relative;
+    left: -90px;
+}
+
+
+.price1{
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    left: -90px;
+}
+
+.price2{
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    left: -90px;
+}
+
+.add_to_bag{
+    font-size: 14px;
+    position: relative;
+    margin: 10px;
+    border-radius: 50px;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #100D22;
+    color: #fff;
+}
+
+hr {
+    height: 1px; /* Chiều cao của thẻ hr */
+    position: relative;
+    top: -15px;
+    background-color: #000000 ;
+    border: none;
+  }
+
+.cover{
+    background-image: url(/Image/Bia2.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+   
+    z-index: -1; 
+    left: 950px;
+    width: 500px;
+    height: 1000px;
+    top: -100px;
+}
+.Shoes_main{
+    width: 600px;
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}
+.Shoes_main:hover{
+    transition:  0.3s ;
+    transform: translate(0px,-10px);
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+    
+}
+.Shoes_image{
+    padding-left: 50px;
+    
+    transition:  0.3s ;
+}
+.Shoes_image img{
+    padding-top: 50px;
+    width: 120px;
+    
+}
+
+.Shoes_image img:hover{
+    transition:  0.3s ;
+    transform: translate(0px,-10px);
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+}
+
+.under_banner{
+    position: relative;
+    top: -800px;
+}
+
+.add_to_bag:hover{
+    position: relative;
+    top : -5px;
+    background-color: #2d3442;
+    cursor: pointer;
+}
+.see_detail:hover{
+    position: relative;
+    color: #000000;
+    top : -5px;
+    cursor: pointer;
+}
+
+#contact ::placeholder {
+    /* Tên font chữ hoặc đường dẫn tới file font chữ */
+    font-family: Plus Jakarta Sans;
+    /* Kích cỡ font chữ */
+    font-size: 14px;
+    /* Màu sắc của placeholder */
+    color: #fff;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.list_product:hover{
+    transition:  0.3s ;
+    transform: translate(0px,-10px);
+    cursor: pointer;
+    position: relative;
+}
+
+#footer ::placeholder{
+    font-family: Plus Jakarta Sans;
+    /* Kích cỡ font chữ */
+    font-size: 10px;
+    /* Màu sắc của placeholder */
+    color: #878690;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    /* Thêm các thuộc tính khác để tùy chỉnh hiệu ứng loading theo ý muốn */
+  }
+
+@media only screen and (max-width: 1400px) {
+    
+    .Shoes_image img{
+        padding-left: 15px;
+        
+    }
+    .cover{
+        width: 400px;
+        left: 800px;
+    }
+    
+}
+@media only screen and (max-width: 1200px) {
+   
+    .text-topic{
+        font-size: 70px;
+    }
+    .add_to_bag{
+        width: 160px;
+    }
+    .Shoes_image img{
+        width: 120px;
+        
+    }
+    .cover{
+        width: 400px;
+        left: 700px;
+        
+    }
+    
+
+    
+}
+
+@media only screen and (max-width: 992px) {
+   
+    .cover{
+        top: 50px;
+        left: 300px;
+        width: 400px;
+        height: 550px;
+    }
+    .add_to_bag{
+        width: 300px;
+    }
+    .description{
+        position: relative;
+        top: 600px;
+    }
+    .Main_image_cover{
+        position: relative;
+        top: -350px;
+        padding-left: 50px;
+    }
+    
+    .Shoes_image img{
+        padding-left: 30px;
+    }
+    .Main_image{
+        position: relative;
+        top: 50px;
+    }
+    
+}
+
+ 
+
+@media only screen and (max-width: 768px) {
+    .cover{
+        left: 200px;
+        width: 400px;
+        height: 550px;
+    }
+    .description{
+        position: relative;
+        top: 500px;
+    }
+    .Shoes_image img{
+        position: relative;
+        padding-top: 0;
+        padding-left: 50px;
+    }
+    .cover{
+        height: 450px;
+    }
+    .Main_image{
+        left: -100px;
+    }
+    
+}
+@media only screen and (max-width: 576px) {
+    .input_quality{
+        position: initial;
+    }
+
+    
+}
+
+@media only screen and (max-width: 576px) {
+    
+}
+@media only screen and (max-width: 506px) {
+   
+    
+}
+
+ 
+
